@@ -1,0 +1,170 @@
+html,
+body {
+  height: 100%;
+}
+
+.background-image-divider{
+  background-image: url(../images/background-image.jpg);
+ background-repeat: no-repeat;
+}
+
+.heading{
+  padding-top:3%;
+  padding-bottom: 3%;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 500%;
+  
+  color:black;
+  
+}
+
+.divider {
+  display: flex;
+ 
+  align-items: center;
+  padding-top: 2%;
+/*padding-bottom: 40px;*/
+  background-color: #eafcff;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.p{
+  margin-bottom: 15%;
+  color: rgb(164, 166, 167);
+  font-size: small;
+}
+
+
+
+
+
+.form-signin {
+  width: 100%;
+  max-width: 60%;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.middle{
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+
+/*For Tablet*/
+@media  (max-width:768px) and (min-width:425px) {
+  .background-image-divider {
+background-size: 130% 100%;
+  }
+  .heading{
+    font-size: 300%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+
+.brand-img{
+  width: 35%;
+  height: 25%;
+}
+.second-heading{
+  font-size: 120%;
+
+}
+.p{
+  font-size: 70%;
+}
+
+.typing-area input{
+font-size: small;
+
+}
+button.btn{
+font-size: small;
+}
+
+p.copy{
+  font-size: small;
+}
+
+
+}
+
+/*For Mobile */
+@media(max-width:442px){
+  .background-image-divider {
+    background-size: 150% 100%;
+      }
+      .heading{
+        font-size: 160%;
+        padding-top: 4%;
+        padding-bottom: 3%;
+      }
+      .brand-img{
+        width: 50%;
+        height: 30%;
+      }
+      .second-heading{
+        font-size: 100%;
+      
+      }  
+      .p{
+        font-size: 60%;
+      }
+      .typing-area input{
+        font-size: 65%;
+        
+        }
+        button.btn{
+          font-size: 75%;
+          }
+          p.copy{
+            font-size: 65%;
+          }
+
+          .divider{
+            margin-left:15% ;
+            margin-right:15% ;
+          }
+
+          
+
+}
+
+/*For small mobile*/
+@media (max-width:320px){
+  .second-heading{
+    font-size: 90%;
+  }
+  .typing-area input{
+    font-size: 75%;
+  }
+  
+}
